@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Popout To Tab",
+    "version": "1.0",
+    "permissions": ["webNavigation", "tabs", "windows"],
+    "icons": {
+        "16": "popout_logo.png",
+        "48": "popout_logo.png",
+        "128": "popout_logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "description": "This extension opens pop-out windows in a new tab."
+  }
